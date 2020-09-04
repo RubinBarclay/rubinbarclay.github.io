@@ -24,7 +24,7 @@
           <a href="#about" class="navbar__link">About me</a>
         </li>
         <li class="navbar__list-item">
-          <a href="#pricing" class="navbar__link">Portfolio</a>
+          <a href="#portfolio" class="navbar__link">Portfolio</a>
         </li>
         <li class="navbar__list-item">
           <a href="#contact" class="navbar__link">Contact</a>
@@ -97,6 +97,7 @@
             </div>
           </div>
         </div>
+
       </section>
       <section id="contact">
         <div class="row">
@@ -104,9 +105,21 @@
             <h2 class="contact__heading">Contact Information</h2>
             <div class="contact__card">
               <ul class="contact__info-list">
-                <li class="contact__info-list-item"><i>Email</i> xxxxxxxxx@mail.com</li>
-                <li class="contact__info-list-item"><i>Phone</i> 123 456 78 90</li>
-                <li class="contact__info-list-item"><i>Address</i> Madeup Street 99</li>
+                <li class="contact__info-list-item">
+                  <svg class="icon icon-phone">
+                    <use xlink:href="img/icomoon/sprites.svg#icon-phone"></use>
+                  </svg> 123 456 78 90
+                </li>
+                <li class="contact__info-list-item">
+                  <svg class="icon icon-mail">
+                    <use xlink:href="img/icomoon/sprites.svg#icon-mail"></use>
+                  </svg> xxxxxxxxx@mail.com
+                </li>
+                <li class="contact__info-list-item">
+                  <svg class="icon icon-home">
+                    <use xlink:href="img/icomoon/sprites.svg#icon-home"></use>
+                  </svg> Madeup Street 99
+                </li>
               </ul>
             </div>
           </div>
@@ -114,7 +127,7 @@
             <h2 class="contact__heading">Got a question?</h2>
             <div class="contact__card">
               <form action="" class="contact__form">
-                <input type="text" name="name" class="contact__name" placeholder="Full name">
+                <input type="email" name="email" class="contact__name" placeholder="Email address">
                 <textarea name="message" class="contact__message" placeholder="Enter a message..."></textarea>
                 <div class="contact__submit-wrapper">
                   <button type="submit" class="contact__submit">Send</button>

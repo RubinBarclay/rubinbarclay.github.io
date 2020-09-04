@@ -1,5 +1,5 @@
-section:not(:last-child) {
-  margin-top: 20px;
+section {
+  margin-top: 60px;
   margin-bottom: 80px;
 }
 
@@ -28,6 +28,7 @@ main {
 
 .navbar__list {
   list-style: none;
+  margin-right: 40px;
   float: right;
   height: 100%;
 }
@@ -77,9 +78,10 @@ main {
 
 /* FOOTER */
 .footer {
-  width: 100%;
-  position: fixed;
+  position: absolute;
   bottom: 0;
+  right: 0;
+  left: 0;
   text-align: center;
   border: 2px solid black;
 }

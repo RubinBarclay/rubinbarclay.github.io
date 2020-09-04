@@ -1,0 +1,42 @@
+.portfolio__heading {
+  text-align: center;
+}
+
+/* Center cards (reduce gutter) */
+#portfolio .row > :first-child .card {
+  float: right;
+}
+#portfolio .row > :last-child .card {
+  float: left;
+}
+
+.card {
+  width: 300px;
+  margin: 0 auto;
+  border: 1px solid #555;
+  border-radius: 4px;
+  box-shadow: 8px 8px 8px 2px #888;
+}
+
+.card__img {
+}
+
+.card__body {
+  background-color: #fff;
+  margin-top: -8px;
+  height: 100px;
+  text-align: center;
+}
+
+.card__title {
+  margin: 0;
+  margin-bottom: 8px;
+  padding: 8px;
+}
+
+.card__btn {
+  text-decoration: none;
+  padding: 16px 36px;
+  border-radius: 100px;
+  background-color: aqua;
+}

@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/layout.css" />
+    <link rel="stylesheet" href="css/about.css" />
+    <link rel="stylesheet" href="css/portfolio.css" />
+    <link rel="stylesheet" href="css/contact.css" />
+    <title>Rubin Barclay</title>
+  </head>
+
+  <body>
+    <nav class="navbar">
+      <h1 class="navbar__heading">Rubin Barclay</h1>
+      <ul class="navbar__list">
+        <li class="navbar__list-item">
+          <a href="#about" class="navbar__link">About me</a>
+        </li>
+        <li class="navbar__list-item">
+          <a href="#pricing" class="navbar__link">Portfolio</a>
+        </li>
+        <li class="navbar__list-item">
+          <a href="#contact" class="navbar__link">Contact</a>
+        </li>
+      </ul>
+    </nav>
+
+    <header class="header">
+      <h2 class="header__text">
+        Welcome to my non-responsive float based website!
+      </h2>
+    </header>
+
+
+
+    <main>
+      <section id="about">
+          <div class="col-12">
+            <img
+              class="about__img"
+              src="https://source.unsplash.com/300x300/?person"
+              alt="me"
+            />
+            <h2 class="about__heading">About me</h2>
+            <p class="about__text">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              Obcaecati dolores delectus doloribus in? Quis voluptatibus
+              dignissimos excepturi maiores dolore incidunt dolorem odit magni
+              maxime, delectus odio, reprehenderit sit tempore aliquam
+              perspiciatis saepe nostrum quisquam id quaerat ipsa. Omnis soluta,
+              dolorem eveniet eum iste minus reprehenderit asperiores ipsa
+              molestiae.
+            </p>
+            <p>Nostrum repellendus iusto aliquam maiores recusandae
+              veniam quam laboriosam blanditiis voluptas earum voluptatem, vero
+              corrupti. Autem praesentium ratione fugiat sunt neque excepturi
+              facilis enim, aliquid ex, blanditiis molestias. Neque rerum provident sunt dicta vitae temporibus mollitia ducimus, ipsa voluptates id reiciendis distinctio error odit voluptas quisquam iste. Error esse adipisci, et repellendus repudiandae vero laboriosam quaerat omnis, iusto vitae nam.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section id="portfolio">
+        <h2 class="portfolio__heading">Portfolio</h2>
+        <div class="row">
+          <div class="col-4">
+            <div class="card">
+              <img src="https://source.unsplash.com/300x300/?tech" alt="" class="card__img">
+              <div class="card__body">
+                <h3 class="card__title">Project 1</h3>
+                <a href="#" class="card__btn card__btn--blue">View</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="card">
+              <img src="https://source.unsplash.com/300x301/?tech" alt="" class="card__img">
+              <div class="card__body">
+                <h3 class="card__title">Project 2</h3>
+                <a href="#" class="card__btn card__btn--blue">View</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="card">
+              <img src="https://source.unsplash.com/300x299/?tech" alt="" class="card__img">
+              <div class="card__body">
+                <h3 class="card__title">Project 3</h3>
+                <a href="#" class="card__btn card__btn--blue">View</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="contact">
+        <div class="row">
+          <div class="col-6 contact__box">
+            <h2 class="contact__heading">Contact Information</h2>
+            <div class="contact__card">
+              <ul class="contact__info-list">
+                <li class="contact__info-list-item"><i>Email</i> xxxxxxxxx@mail.com</li>
+                <li class="contact__info-list-item"><i>Phone</i> 123 456 78 90</li>
+                <li class="contact__info-list-item"><i>Address</i> Madeup Street 99</li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-6 contact__box">
+            <h2 class="contact__heading">Got a question?</h2>
+            <div class="contact__card">
+              <form action="" class="contact__form">
+                <input type="text" name="name" class="contact__name" placeholder="Full name">
+                <textarea name="message" class="contact__message" placeholder="Enter a message..."></textarea>
+                <div class="contact__submit-wrapper">
+                  <button type="submit" class="contact__submit">Send</button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+      <br />
+      <br />
+
+      <!--
+      <div class="row">
+        <div class="col-1 h-50"></div>
+        <div class="col-1 h-50"></div>
+        <div class="col-1 h-50"></div>
+        <div class="col-1 h-50"></div>
+        <div class="col-1 h-50"></div>
+        <div class="col-1 h-50"></div>
+        <div class="col-1 h-50"></div>
+        <div class="col-1 h-50"></div>
+        <div class="col-1 h-50"></div>
+        <div class="col-1 h-50"></div>
+        <div class="col-1 h-50"></div>
+        <div class="col-1 h-50"></div>
+      </div>
+      -->
+    </main>
+    <footer class="footer">
+      @ Rubin Barclay
+    </footer>
+  </body>
+</html>

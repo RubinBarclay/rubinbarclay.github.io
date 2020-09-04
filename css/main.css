@@ -1,0 +1,86 @@
+/* VARIABLES */
+:root {
+}
+
+/* GENERAL */
+body {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  line-height: 1.6;
+}
+
+.center-text {
+  text-align: center;
+}
+
+/* 12 COL GRID SYSTEM */
+.row:before,
+.row:after {
+  content: "";
+  display: table;
+}
+.row:after {
+  clear: both;
+}
+.row {
+  zoom: 1; /* For IE 6/7 (trigger hasLayout) */
+}
+
+.row > [class^="col-"] {
+  float: left;
+  margin: 0 10px;
+  /*background-color: lightblue; */
+}
+
+/* FOR TESTING PURPOSES */
+.h-50 {
+  height: 80px;
+}
+
+.col-1 {
+  width: 80px;
+}
+
+.col-2 {
+  width: 180px;
+}
+
+.col-3 {
+  width: 280px;
+}
+
+.col-4 {
+  width: 380px;
+}
+
+.col-5 {
+  width: 480px;
+}
+
+.col-6 {
+  width: 580px;
+}
+
+.col-7 {
+  width: 680px;
+}
+
+.col-8 {
+  width: 780px;
+}
+
+.col-9 {
+  width: 880px;
+}
+
+.col-10 {
+  width: 980px;
+}
+
+.col-11 {
+  width: 1080px;
+}
+
+.col-12 {
+  width: 1180px;
+}

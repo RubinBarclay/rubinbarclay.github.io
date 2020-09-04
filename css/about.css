@@ -1,0 +1,20 @@
+.about__img-container {
+  margin: 0 auto;
+}
+
+.about__img {
+  margin: 0 100px;
+  border: 16px solid transparent;
+  border-radius: 50%;
+  float: left;
+
+  -webkit-shape-outside: circle();
+  shape-outside: circle();
+}
+
+.about__heading {
+  padding-top: 20px;
+}
+.about__text {
+  padding-left: 0 20px;
+}

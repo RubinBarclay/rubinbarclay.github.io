@@ -34,7 +34,7 @@
 
     <header class="header">
       <h2 class="header__text">
-        Welcome to my non-responsive float based website!
+        Welcome to my <span class="header__text--highlight">non</span>-responsive<br><span class="header__text--highlight">float</span> based website!
       </h2>
     </header>
 
@@ -50,18 +50,10 @@
             />
             <h2 class="about__heading">About me</h2>
             <p class="about__text">
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-              Obcaecati dolores delectus doloribus in? Quis voluptatibus
-              dignissimos excepturi maiores dolore incidunt dolorem odit magni
-              maxime, delectus odio, reprehenderit sit tempore aliquam
-              perspiciatis saepe nostrum quisquam id quaerat ipsa. Omnis soluta,
-              dolorem eveniet eum iste minus reprehenderit asperiores ipsa
-              molestiae.
+              My name is Rubin Barclay currently 19 years old and I picked up coding as a hobby in 2018. I started off with Python with a lot of focus on data science, and that's where I learned my fundamental programming skills. I've dabbled with several other languages including C++ and Java, but I always came back to Python. Then in the spring of 2020 my friend recommended <a href="https://freecodecamp.org" target="_blank" class="about__text--link">FreeCodeCamp</a>, a online webdeveloper bootcamp, which is when my interest in frontend development began.
             </p>
-            <p>Nostrum repellendus iusto aliquam maiores recusandae
-              veniam quam laboriosam blanditiis voluptas earum voluptatem, vero
-              corrupti. Autem praesentium ratione fugiat sunt neque excepturi
-              facilis enim, aliquid ex, blanditiis molestias. Neque rerum provident sunt dicta vitae temporibus mollitia ducimus, ipsa voluptates id reiciendis distinctio error odit voluptas quisquam iste. Error esse adipisci, et repellendus repudiandae vero laboriosam quaerat omnis, iusto vitae nam.
+            <p class="about__text">
+              Then after having completed all the frontend courses on FCC and several other MOOCs on sites like <a href="https://www.udemy.com/" target="_blank" class="about__text--link">udemy.com</a> I made the decision to formally educate myself at <a href="https://www.jensenyh.se/" target="_blank" class="about__text--link">Jensens Yrkeshögskola</a> (Swedish vocational university). Which is where I'm currently at in my career as a frontend developer.
             </p>
           </div>
         </div>
@@ -71,27 +63,38 @@
         <div class="row">
           <div class="col-4">
             <div class="card">
-              <img src="https://source.unsplash.com/300x300/?tech" alt="" class="card__img">
+            
+              <div class="card__img__gradient">
+                <img src="img/bookface-logo.png" alt="bookface logo" class="card__img">
+              </div>
+                        
+              <div class="Xcard__img Xcard__img--1">
+                <!-- images added as CSS background-images -->
+              </div>
               <div class="card__body">
-                <h3 class="card__title">Project 1</h3>
+                <h3 class="card__title">Bookface</h3>
                 <a href="#" class="card__btn card__btn--blue">View</a>
               </div>
             </div>
           </div>
           <div class="col-4">
             <div class="card">
-              <img src="https://source.unsplash.com/300x301/?tech" alt="" class="card__img">
+              <div class="card__img card__img--2">
+                <!-- images added as CSS background-images -->
+              </div>
               <div class="card__body">
-                <h3 class="card__title">Project 2</h3>
+                <h3 class="card__title">Genetically Modified Laser Cat</h3>
                 <a href="#" class="card__btn card__btn--blue">View</a>
               </div>
             </div>
           </div>
           <div class="col-4">
             <div class="card">
-              <img src="https://source.unsplash.com/300x299/?tech" alt="" class="card__img">
+              <div class="card__img card__img--3">
+                <!-- images added as CSS background-images -->
+              </div>
               <div class="card__body">
-                <h3 class="card__title">Project 3</h3>
+                <h3 class="card__title">Wanna Cry ransomware</h3>
                 <a href="#" class="card__btn card__btn--blue">View</a>
               </div>
             </div>
@@ -113,7 +116,7 @@
                 <li class="contact__info-list-item">
                   <svg class="icon icon-mail">
                     <use xlink:href="img/icomoon/sprites.svg#icon-mail"></use>
-                  </svg> xxxxxxxxx@mail.com
+                  </svg> dontdoxme@email.com
                 </li>
                 <li class="contact__info-list-item">
                   <svg class="icon icon-home">

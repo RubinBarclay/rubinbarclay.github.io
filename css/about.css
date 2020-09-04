@@ -3,7 +3,7 @@
 }
 
 .about__img {
-  margin: 0 80px;
+  margin: 0 50px;
   border: 16px solid transparent;
   border-radius: 50%;
   float: left;
@@ -17,4 +17,11 @@
 }
 .about__text {
   padding-left: 0 20px;
+  font-size: 17px;
+}
+
+.about__text--link:link,
+.about__text--link:visited {
+  text-decoration: none;
+  color: var(--color-primary);
 }

@@ -4,6 +4,9 @@
 
 .about__img {
   margin: 0 50px;
+  width: 300px;
+  height: 300px;
+  filter: grayscale(100%);
   border: 16px solid transparent;
   border-radius: 50%;
   float: left;
